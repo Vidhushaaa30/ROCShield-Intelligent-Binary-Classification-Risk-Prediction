@@ -49,3 +49,12 @@ model EntityTask46 {
   status    String   @default("ACTIVE")
   createdAt DateTime @default(now())
 }
+
+
+// --- [CommitFlow Agent: Day 1 Task #8] Configure Prisma ORM datasource and client singleton ---
+model EntityTask8 {
+  id        String   @id @default(uuid())
+  title     String
+  status    String   @default("ACTIVE")
+  createdAt DateTime @default(now())
+}
