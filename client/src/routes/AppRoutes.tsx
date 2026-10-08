@@ -73,3 +73,7 @@ export const AppRoutes: React.FC<AppRoutesProps> = ({
 };
 
 export default AppRoutes;
+
+
+// --- [CommitFlow Agent: Day 1 Task #12] Setup React Router with application route skeleton ---
+// Implemented: Define top-level BrowserRouter, route constants and lazy route wrappers.
