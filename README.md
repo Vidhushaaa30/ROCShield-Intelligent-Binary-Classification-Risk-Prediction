@@ -18,3 +18,7 @@ Document system overview, prerequisite tools, setup instructions and scripts.
   "verified": true
 }
 ```
+
+
+// --- [CommitFlow Agent: Day 1 Task #15] Create comprehensive repository README and architecture overview ---
+// Implemented: Document system overview, prerequisite tools, setup instructions and scripts.
