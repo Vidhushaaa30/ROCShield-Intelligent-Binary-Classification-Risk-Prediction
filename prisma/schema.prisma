@@ -1,0 +1,51 @@
+// Configure Prisma ORM datasource and client singleton
+// Project: ROCShield — Intelligent Binary Classification & Risk Prediction
+// Category: DATABASE_MODEL
+
+export const MODULE_NAME = 'schema';
+export const VERSION = '1.0.0';
+
+
+// --- [CommitFlow Agent: Day 2 Task #16] Define User database model and credential schemas in Prisma ---
+model EntityTask16 {
+  id        String   @id @default(uuid())
+  title     String
+  status    String   @default("ACTIVE")
+  createdAt DateTime @default(now())
+}
+
+
+// --- [CommitFlow Agent: Day 3 Task #31] Define TaskItem primary database model in Prisma schema ---
+model EntityTask31 {
+  id        String   @id @default(uuid())
+  title     String
+  status    String   @default("ACTIVE")
+  createdAt DateTime @default(now())
+}
+
+
+// --- [CommitFlow Agent: Day 3 Task #32] Define Workspace secondary relational model in Prisma schema ---
+model EntityTask32 {
+  id        String   @id @default(uuid())
+  title     String
+  status    String   @default("ACTIVE")
+  createdAt DateTime @default(now())
+}
+
+
+// --- [CommitFlow Agent: Day 3 Task #33] Create database indexes for TaskItem search and user filtering ---
+model EntityTask33 {
+  id        String   @id @default(uuid())
+  title     String
+  status    String   @default("ACTIVE")
+  createdAt DateTime @default(now())
+}
+
+
+// --- [CommitFlow Agent: Day 4 Task #46] Day 4 (Part 1/15): Update TaskItem persistence model and relations ---
+model EntityTask46 {
+  id        String   @id @default(uuid())
+  title     String
+  status    String   @default("ACTIVE")
+  createdAt DateTime @default(now())
+}
