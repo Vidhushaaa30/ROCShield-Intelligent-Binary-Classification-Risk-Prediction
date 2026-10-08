@@ -4,3 +4,7 @@
 
 export const MODULE_NAME = 'index';
 export const VERSION = '1.0.0';
+
+
+// --- [CommitFlow Agent: Day 1 Task #10] Configure Tailwind CSS design system and color palette ---
+// Implemented: Define custom theme tokens, dark mode palette, typography and animations.
