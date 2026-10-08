@@ -73,3 +73,7 @@ export const AppLayout: React.FC<AppLayoutProps> = ({
 };
 
 export default AppLayout;
+
+
+// --- [CommitFlow Agent: Day 1 Task #13] Create base application shell layout and container ---
+// Implemented: Implement AppLayout with responsive sidebar slot, topbar and content view.
