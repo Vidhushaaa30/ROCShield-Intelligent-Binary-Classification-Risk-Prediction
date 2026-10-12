@@ -58,3 +58,12 @@ model EntityTask8 {
   status    String   @default("ACTIVE")
   createdAt DateTime @default(now())
 }
+
+
+// --- [CommitFlow Agent: Day 2 Task #16] Define User database model and credential schemas in Prisma ---
+model EntityTask16 {
+  id        String   @id @default(uuid())
+  title     String
+  status    String   @default("ACTIVE")
+  createdAt DateTime @default(now())
+}
