@@ -73,3 +73,7 @@ export const Register: React.FC<RegisterProps> = ({
 };
 
 export default Register;
+
+
+// --- [CommitFlow Agent: Day 2 Task #28] Build Registration UI screen with password strength indicator ---
+// Implemented: Create signup form with name, email, password confirmation and validations.
