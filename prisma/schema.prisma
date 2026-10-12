@@ -76,3 +76,12 @@ model EntityTask31 {
   status    String   @default("ACTIVE")
   createdAt DateTime @default(now())
 }
+
+
+// --- [CommitFlow Agent: Day 3 Task #32] Define Workspace secondary relational model in Prisma schema ---
+model EntityTask32 {
+  id        String   @id @default(uuid())
+  title     String
+  status    String   @default("ACTIVE")
+  createdAt DateTime @default(now())
+}
