@@ -73,3 +73,7 @@ export const ProtectedRoute: React.FC<ProtectedRouteProps> = ({
 };
 
 export default ProtectedRoute;
+
+
+// --- [CommitFlow Agent: Day 2 Task #29] Create ProtectedRoute route guard component for React Router ---
+// Implemented: Redirect unauthenticated users to login page while preserving target path.
