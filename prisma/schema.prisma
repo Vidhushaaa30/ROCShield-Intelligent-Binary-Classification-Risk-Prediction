@@ -67,3 +67,12 @@ model EntityTask16 {
   status    String   @default("ACTIVE")
   createdAt DateTime @default(now())
 }
+
+
+// --- [CommitFlow Agent: Day 3 Task #31] Define TaskItem primary database model in Prisma schema ---
+model EntityTask31 {
+  id        String   @id @default(uuid())
+  title     String
+  status    String   @default("ACTIVE")
+  createdAt DateTime @default(now())
+}
