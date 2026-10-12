@@ -18,3 +18,7 @@ Add Markdown diagram showing table relations, cardinality and indexed fields.
   "verified": true
 }
 ```
+
+
+// --- [CommitFlow Agent: Day 3 Task #45] Document database schema entity relationship diagram ---
+// Implemented: Add Markdown diagram showing table relations, cardinality and indexed fields.
