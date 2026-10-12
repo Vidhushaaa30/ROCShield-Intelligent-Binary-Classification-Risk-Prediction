@@ -85,3 +85,12 @@ model EntityTask32 {
   status    String   @default("ACTIVE")
   createdAt DateTime @default(now())
 }
+
+
+// --- [CommitFlow Agent: Day 3 Task #33] Create database indexes for TaskItem search and user filtering ---
+model EntityTask33 {
+  id        String   @id @default(uuid())
+  title     String
+  status    String   @default("ACTIVE")
+  createdAt DateTime @default(now())
+}
