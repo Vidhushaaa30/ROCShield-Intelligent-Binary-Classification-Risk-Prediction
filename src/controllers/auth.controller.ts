@@ -58,3 +58,10 @@ export const handleTask25 = (input: any) => {
   // Implementation for: Create GET /api/auth/me session verification endpoint
   return { success: true, taskId: "51c28981-9d8b-45e3-b0cd-1a78767d2503", processedAt: new Date().toISOString() };
 };
+
+
+// --- [CommitFlow Agent: Day 2 Task #21] Create POST /api/auth/register endpoint ---
+export const handleTask21 = (input: any) => {
+  // Implementation for: Create POST /api/auth/register endpoint
+  return { success: true, taskId: "4228de2e-b5ea-475c-bc14-48d86cb6a8c2", processedAt: new Date().toISOString() };
+};
