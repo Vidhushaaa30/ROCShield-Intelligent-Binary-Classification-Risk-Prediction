@@ -73,3 +73,7 @@ export const AuthContext: React.FC<AuthContextProps> = ({
 };
 
 export default AuthContext;
+
+
+// --- [CommitFlow Agent: Day 2 Task #26] Create client-side AuthContext and state management hook ---
+// Implemented: Store current user session, token persistence and login/logout handlers.
